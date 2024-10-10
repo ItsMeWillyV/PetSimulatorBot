@@ -94,6 +94,7 @@ bot.on("messageCreate", async (msg) => {
 	for (pet in userPets) {
 		userPower += pets[pet].power * userPets[pet];
 	}
+	
 	// Update username in database (used for leaderboard)
 	if (await db.get(`users.${msg.author.id}.name`) !== `${msg.author.username}`){
 		await db.set(`users.${msg.author.id}.name`, `${msg.author.username}`)
