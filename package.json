@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "davie-eris-embed": "^1.0.3",
+    "eris": "^0.17.2",
+    "quick.db": "^9.0.8"
+  }
+}

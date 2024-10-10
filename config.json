@@ -1,0 +1,224 @@
+{
+	"icon": {
+		"gold": "<:Coin:1285307577973997783>",
+		"gem": "<:Diamond:1285307856496885923>",
+		"hiddenegg": "<:Egg_Hidden:1285792157311176755>"
+	},
+	
+	"pets": {
+		"Dog": {
+			"power": 1,
+			"rarity": "Basic",
+			"egg": "Cracked",
+			"icon": "<:Pet_Dog:1285303044023521381>"
+		},
+		"Cat": {
+			"power": 1,
+			"rarity": "Basic",
+			"egg": "Cracked",
+			"icon": "<:Pet_Cat:1285306232563040277>"
+		},
+		"Corgi": {
+			"power": 1,
+			"rarity": "Basic",
+			"egg": "Cracked",
+			"icon": "<:Pet_Corgi:1285306528450220162>"
+		},
+		"Axolotl": {
+			"power": 1,
+			"rarity": "Basic",
+			"egg": "Cracked",
+			"icon": "<:Pet_Axolotl:1285306954276933661>"
+		},
+		"Bunny": {
+			"power": 2,
+			"rarity": "Basic",
+			"egg": "Spotted",
+			"icon": "<:Pet_Bunny:1286509884388675604>"
+		},
+		"Chick": {
+			"power": 3,
+			"rarity": "Basic",
+			"egg": "Spotted",
+			"icon": "<:Pet_Chick:1286510933962657884>"
+		},
+		"Dalmation": {
+			"power": 5,
+			"rarity": "Basic",
+			"egg": "Spotted Paw",
+			"icon": "<:Pet_Dalmatian:1286511594523856948>"
+		},
+		"Ducky": {
+			"power": 7,
+			"rarity": "Basic",
+			"egg": "Paw",
+			"icon": "<:Pet_Ducky:1286746310594269287>"
+		},
+		"Monkey": {
+			"power": 8,
+			"rarity": "Basic",
+			"egg": "Paw",
+			"icon": "<:Pet_Monkey:1286746260510081054>"
+		}, 
+		"Parrot": {
+			"power": 18,
+			"rarity": "Basic",
+			"egg": "Paw Grass",
+			"icon": "<:Pet_Parrot:1286746287605288990>"
+		},
+		"Elephant": {
+			"power": 14,
+			"rarity": "Basic",
+			"egg": "Grass",
+			"icon": "<:Pet_Elephant:1286784683081863259>"
+		},
+		"Tiger": {
+			"power": 50,
+			"rarity": "Basic",
+			"egg": "Grass Wood",
+			"icon": "<:Pet_Tiger:1286784716602740889>"
+		},
+		"Squirrel": {
+			"power": 31,
+			"rarity": "Basic",
+			"egg": "Wood",
+			"icon": "<:Pet_Squirrel:1286791262128574659>"
+		},
+		"Bear": {
+			"power": 37,
+			"rarity": "Basic",
+			"egg": "Wood",
+			"icon": "<:Pet_Bear:1286791297507655752>"
+		},
+		"Lamb": {
+			"power": 58,
+			"rarity": "Basic",
+			"egg": "Pumpkin",
+			"icon": "<:Pet_Lamb:1286794369617104928>"
+		},
+		"Raccoon": {
+			"power": 61,
+			"rarity": "Basic",
+			"egg": "Pumpkin",
+			"icon": "<:Pet_Raccoon:1286794417688281143>"
+		},
+		"Fox": {
+			"power": 63,
+			"rarity": "Basic",
+			"egg": "Pumpkin",
+			"icon": "<:Pet_Fox:1286794476202758175>"
+		}
+		
+	},
+	
+	"eggs": [
+		{
+			"name": "Cracked",
+			"icon": "<:Egg_Cracked:1285307348436521011>",
+			"level": 1,
+			"price": 90,
+			"pets": {
+				"Axolotl": {
+					"weight": 1
+				},
+				"Cat": {
+					"weight": 1
+				},
+				"Corgi": {
+					"weight": 1
+				},
+				"Dog": {
+					"weight": 1
+				}
+			}
+		},
+		{
+			"name": "Spotted",
+			"icon": "<:Egg_Spotted:1286510185103229008>",
+			"level": 1,
+			"price": 150,
+			"pets": {
+				"Bunny": {
+					"weight": 1290
+				},
+				"Chick": {
+					"weight": 580
+				},
+				"Dalmation": {
+					"weight": 130
+				}
+			}
+		},
+		{
+			"name": "Paw",
+			"icon": "<:Egg_Paw:1286746390227193947>",
+			"level": 1,
+			"price": 250,
+			"pets": {
+				"Dalmation": {
+					"weight": 190
+				},
+				"Ducky": {
+					"weight": 190
+				},
+				"Monkey": {
+					"weight": 95
+				},
+				"Parrot": {
+					"weight": 25
+				}
+			}
+		},
+		{
+			"name": "Grass",
+			"icon": "<:Egg_Grass:1286784646289424454>",
+			"level": 1,
+			"price": 650,
+			"pets": {
+				"Parrot": {
+					"weight": 50
+				},
+				"Elephant": {
+					"weight": 143
+				},
+				"Tiger": {
+					"weight": 7
+				}
+			}
+		},
+		{
+			"name": "Wood",
+			"icon": "<:Egg_Wood:1286791216394014804>",
+			"level": 1,
+			"price": 1500,
+			"pets": {
+				"Tiger": {
+					"weight": 8
+				},
+				"Bear": {
+					"weight": 55
+				},
+				"Squirrel": {
+					"weight": 137
+				}
+			}
+		},
+		{
+			"name": "Pumpkin",
+			"icon": "<:Egg_Pumpkin:1286794322850873404>",
+			"level": 1,
+			"price": 4000,
+			"pets": {
+				"Lamb": {
+					"weight": 91
+				},
+				"Raccoon": {
+					"weight": 64
+				},
+				"Fox": {
+					"weight": 45
+				}
+			}
+		}
+	]
+}
